@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+
+
+}
+
+fieldset {
+    background-color: #39afcd75;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blue;
+    padding: 8px;
+}
+
+.item {
+    border: 2px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 200px;
+
+    margin-left: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
