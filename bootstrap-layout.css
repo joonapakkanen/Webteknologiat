@@ -1,0 +1,7 @@
+.col-3 {
+    border-color: black;
+    border-width: 3px;
+    border-style: groove;
+    width: fit-content;
+
+}

@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer foorer";
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+.main {
+    grid-area: main;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(3, 245, 52);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: footer;
+    background-color: brown;
+}
